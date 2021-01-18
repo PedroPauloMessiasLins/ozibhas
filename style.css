@@ -3,8 +3,8 @@ body {
 }
 
 .principal {
-    width: 261px;
-    height: 478px;
+    width: 350px;
+    height: 570px;
     padding: 0;
     margin: auto;
     background-image: url(./img/fundo2.jpeg);
@@ -39,11 +39,11 @@ body {
 
 .texto {
     font-family: 'bebas_neueregular';
-    font-size: 48px;
+    font-size: 54px;
     font-weight: 400;
-    margin-left: 50%;
+    margin-left: 58%;
     margin-top: 0%;
-    margin-bottom: 9%;
+    margin-bottom: 8%;
 
 }
 
@@ -60,7 +60,7 @@ body {
     width: 59px;
     height: 43px;
     margin: auto;
-    margin-left: 15%;
+    margin-left: 25%;
     margin-bottom: 14%;
     background-color: #328bdfd7 ;
     border: none;
@@ -81,18 +81,20 @@ body {
 }
 
 .foto1 {
-    margin-left: 35%;
-    margin-top: -95%;
+    margin-left: 49%;
+    margin-top: -90%;
     z-index: 0;
+    margin-bottom: 4%;
 }
 
 .formula {
-    width: 45%;
+    width: 42%;
     background-color: #328bdfd7;
     border-radius: 8px;
     height: 23%;
     margin-top: -65%;
     margin-left: 6%;
+    padding-left: 6%;
 }
 
 .fonte{
@@ -114,16 +116,15 @@ body {
     background-color: rgba(0,0,0,-0.6); 
   }
   
-
   .modal-content {
-   background-color: rgba(196, 196, 196, 0.76);
+    background-color: rgba(196, 196, 196, 0.76);
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     border-radius: 6px;
     width: 220px ;
+
   }
-  
   
   .close {
     color: black;
@@ -131,13 +132,15 @@ body {
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
   }
+
+
 
 
 
