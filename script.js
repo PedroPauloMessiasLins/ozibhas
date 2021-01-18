@@ -1,34 +1,26 @@
 
-
-
-
-
 function equacao() {
-
-
-    modal.style.display = "block";
-
+    
     a = parseInt(document.getElementById('aa').value);
     b = parseInt(document.getElementById('bb').value);
     c = parseInt(document.getElementById('cc').value);
-
-
 
     if (delta(a, b, c) > 0) {
         console.log("o valor de delta é " + delta(a, b, c));
         console.log("X1 = " + x1(a, b, delta(a, b, c)));
         console.log("X2 = " + x2(a, b, delta(a, b, c)));
+        
+         modal.style.display = "block";
 
         document.getElementById("x1").innerHTML = "Valor de x¹: " + x1(a, b, delta(a, b, c))
         document.getElementById("x2").innerHTML = "Valor de x²: " + x2(a, b, delta(a, b, c))
         document.getElementById("delta").innerHTML = "Valor de delta: " + delta(a, b, c)
     } else {
-        console.log("o valor de delta é negativo " + delta(a, b, c));
+        modal.style.display = "block";
+        document.getElementById("textod").innerHTML = "Delta é negativo "
+        
     }
 }
-
-
-
 
 
 function delta(a, b, c) {
