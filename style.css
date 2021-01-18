@@ -81,7 +81,6 @@ body {
 }
 
 .foto1 {
-    width: 65%;
     margin-left: 35%;
     margin-top: -95%;
     z-index: 0;
@@ -96,6 +95,10 @@ body {
     margin-left: 6%;
 }
 
+.fonte{
+    font-family: 'bebas_neueregular';
+}
+
 
 .modal {
     display: none; 
@@ -108,22 +111,22 @@ body {
     height: 100%; 
     overflow: auto; 
     background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4); 
+    background-color: rgba(0,0,0,-0.6); 
   }
   
 
   .modal-content {
-    background-color: #fefefe;
+   background-color: rgba(196, 196, 196, 0.76);
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-    border-radius: 30px;
+    border-radius: 6px;
+    width: 220px ;
   }
   
   
   .close {
-    color: #aaaaaa;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -135,8 +138,6 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
-
-
 
 
 
